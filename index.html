@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProMedic - Healthcare Applications Platform</title>
+    <meta name="description" content="ProMedic Healthcare Platform - Medical reference tools, clinical companions, diet guides, and fitness coaching applications for healthcare professionals and patients.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            color: white;
+        }
+        
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .logo svg {
+            width: 50px;
+            height: 50px;
+            fill: #667eea;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            padding: 40px 0;
+        }
+        
+        .app-card {
+            background: white;
+            border-radius: 20px;
+            padding: 35px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+        }
+        
+        .app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .app-card h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .app-card p {
+            color: #666;
+            line-height: 1.6;
+            flex-grow: 1;
+        }
+        
+        .app-card .arrow {
+            margin-top: 20px;
+            color: #667eea;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .clinical { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .diet { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); color: white; }
+        .coach { background: linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%); color: white; }
+        .super { background: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%); color: white; }
+        
+            
+            <a href="https://diet.promedic1.com" class="app-card">
+                <div class="app-icon diet">🥗</div>
+                <h2>Diet Guide <span class="badge ar">العربية</span></h2>
+                <p>دليلي الغذائي - Comprehensive nutrition and diet planning application with meal tracking, calorie counting, and personalized diet plans in Arabic.</p>
+                <div class="arrow">Launch App →</div>
+            </a>
+            
+            <a href="https://coach.promedic1.com" class="app-card">
+                <div class="app-icon coach">💪</div>
+                <h2>Workouts Pro</h2>
+                <p>Fitness coaching application with personalized workout plans, exercise tracking, nutrition guidance, and progress monitoring.</p>
+                <div class="arrow">Launch App →</div>
+            </a>
+            
+            <a href="https://super.promedic1.com" class="app-card">
+                <div class="app-icon super">✨</div>
+                <h2>Wellness Hub</h2>
+                <p>Holistic wellness services and health resources for maintaining a balanced and healthy lifestyle.</p>
+                <div class="arrow">Launch App →</div>
+            </a>
+            
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 ProMedic Healthcare Platform. All rights reserved.</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+                <a href="https://umami.promedic1.com">Analytics</a> | 
+                Server: 46.62.228.173
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
